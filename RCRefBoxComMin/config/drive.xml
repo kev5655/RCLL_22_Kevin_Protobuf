@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Settings for Drive 2019 SYDNEY - Autor: Adrian Hayoz -->
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<!-- TOLERANCE -->
+	<entry key="positioningTolerance">0.05</entry><!-- maximal zulässige Abweichung bei der Positionierung (X/Y) [Optimum: 0.05m] -->
+	<entry key="rotationTolerance">2</entry><!-- maximal zulässige Abweichung bei der Positionierung (OMEGA) [Optimum: 1.0°] -->
+	
+        <!-- Robotino Config -->
+        <entry key="restAPI">0</entry><!-- Robotino with REST (>= Robotino V4) = 1; Direct API = 0 -->
+        
+	<!-- SPEED -->
+    	<entry key="maxSpeed">10</entry><!-- maximale Fahrgeschwindigkeit ohne Hindrnisse (X-Achse) [Optimum: 0.65m/s] -->
+	<entry key="reducedSpeed">0.3</entry><!-- maximale Fahrgeschwindigkeit mit Hindrnissen in der Nähe (X-Achse) [Optimum: 0.3m/s] -->
+    	<entry key="aproachSpeed">0.15</entry><!-- Fahrgeschwindigkeit zum Anfahren der Station [Optimum: 0.2 m/s] -->
+	<entry key="exploRotationSpeed">0.2</entry><!-- Fahrgeschwindigkeit zum Anfahren der S -->
+	
+	<!-- LASER -->
+	<entry key="maxDistDetect">3000</entry><!--Maximale Distanz für Hindernisserkennung [Optimum: 3000mm] -->
+	<entry key="minDistDetect">230</entry><!--Minimale Distanz für Hindernisserkennung [Optimum: 500mm] -->
+    	<entry key="laserShiftFront">184</entry><!-- Front-Laser Distanz zum Zentrum des Roboters [Optimum: 184mm] -->
+	<entry key="laserShiftBack">147</entry><!-- Back-Laser Distanz zum Zentrum des Roboters [Optimum: 144mm] -->	
+	
+	<!-- NETWORK -->
+	<entry key="ipRobi">127.0.0.1</entry><!-- IP-Adresse des Roboters [Default: 127.0.0.1] -->
+    	<entry key="ipLaserFront">192.168.137.2</entry><!-- IP-Adresse des Front-Laser [Default: 192.168.137.2] -->
+    	<entry key="ipLaserBack">192.168.137.3</entry><!-- IP-Adresse des Back-Laser [Default: 192.168.137.3] -->	
+		
+	<!-- PATH FINDER -->
+	<entry key="offsetReduced">0.45</entry><!-- Distanz in Meter zu Hinderniss, um Geschwindigkeit zu reduzieren [Optimum: 0.45] -->
+	<entry key="offsetBlocked">0.35</entry><!-- Offset in Meter welcher zu Hindernissen eingehalten wird, um Pfad zu berechnen [Optimum: 0.35] -->
+	
+	<!-- PURE PURSUIT -->
+	<entry key="breakDistanceField">10</entry><!-- Anzahl übrige Wegpunkte, bevor auf das FinalTarget umgeschaltet wird [Optimum: 10] -->
+	<entry key="lookAheadSlopeFast">8</entry><!-- Anzahl Felder, die der Roboter dem Pfad voraus schaut (InPath) [Optimum: 8] -->
+	<entry key="lookAheadSlopeSlow">5</entry><!-- Anzahl Felder, die der Roboter dem Pfad voraus schaut (InPathSlow) [Optimum: 5] -->
+	
+	<!-- APPR & PICK -->
+	<entry key="distGoAwayStation">0.5</entry><!-- Distanz, welcher der Roboter beim Verlassen der Station zurück fährt [Optimum: 0.35m] -->
+	
+	<!-- AXIS CONFIGURATION -->
+		<!-- X-AXIS -->
+		<entry key="XaxisPID">0.62/0.0/0.26</entry><!-- PID-Einstellungen für X-Achse (Geradeaus fahren) Format: >P/I/D< [Optimum: 0.62/0.0/0.26] -->
+		<!-- Output Limit is set by speed tags above -->		
+		<entry key="XsetpointRange">0.49</entry><!-- Minimaler zu fahrenden Weg, wo die Regelung die Geschwindigkeit reduziert, um das Ziel zu erreichen [Optimum: 1.0m] -->
+		<entry key="XrampRate">0.02</entry><!-- Maximale Stellwertänderung während einem Rechnungszyklus (60ms Task Timer) [Optimum: 0.02m/s] -->
+		
+		<!-- Y-AXIS -->
+		<entry key="YaxisPID">1.0/0.0/0.6</entry><!-- PID-Einstellungen für Y-Achse (Vektorkorrektur) Format: >P/I/D< [Optimum: 1.0/0.0/0.6] --> 
+		<entry key="YsetpointRange">0.49</entry><!-- Vektorversatz, ab wann die Regelung der Y-Achse die Geschwindigkeit reduziert [Optimum: 0.5m] -->
+		<entry key="YrampRate">0.01</entry><!-- Maximale Stellwertänderung während einem Rechnungszyklus (60ms Task Timer) [Optimum: 0.01m/s] -->
+		<entry key="YoutputLimit">0.25</entry><!-- Maximale Geschwindigkeit der Y-Achse für Vektorkorrektur [Optimum: 0.25m/s] -->
+		<!-- OMGEA -->
+		<entry key="OMEGAaxisPID">0.7/0.0/0.3</entry><!-- PID-Einstellungen für die Drehachse Format: >P/I/D< [Optimum: 0.7/0.0/0.3] -->
+		<entry key="OMEGAoutputLimit">0.9</entry><!-- Maximale Drehgeschwindigkeit der OMEGA-Achse in rad/s [Optimum: 1.5 rad/s] -->
+		<entry key="OMEGAsetpointRange">3.1416</entry><!-- Sollwert zum Drehen, wo Regelung die Geschwindigkeit der Achse reduziert [Optimum: 3.1416 rad] -->
+		<entry key="OMEGArampRate">0.12</entry><!-- Maximale Stellwertänderung während einem Rechnungszyklus (60ms Task Timer) [Optimum: 0.12rad/s] -->
+</properties>
