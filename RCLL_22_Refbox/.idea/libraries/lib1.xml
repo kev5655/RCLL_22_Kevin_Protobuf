@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/EasyModbusJava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/protobuf-java-2.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rec_robotino_api2_java.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/protobuf_comm-0.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xstream-1.4.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Tinkerforge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.paho.client.mqttv3-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

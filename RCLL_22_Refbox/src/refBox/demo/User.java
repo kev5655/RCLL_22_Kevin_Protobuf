@@ -22,7 +22,7 @@ public class User
     private final static String TEAM_NAME = "Solidus";
     private final static String ENCRYPTION_KEY = "randomkey";
     private static Team TEAM_COLOR = Team.CYAN;
-    private final static String IP =  "172.17.0.1";//"192.168.1.154"; //"127.0.0.1"; //"192.168.56.102";
+    private final static String IP =  "127.0.0.1";//"172.17.0.1";//"192.168.1.154"; //"127.0.0.1"; //"192.168.56.102";
 
     private static ProtobufBroadcastPeer peerPublic;
     private static ProtobufBroadcastPeer peerPrivate;
