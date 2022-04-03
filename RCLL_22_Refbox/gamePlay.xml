@@ -15,7 +15,7 @@
         <!-- NETWORK -->
 	<entry key="mqttBrokerIp">127.0.0.1</entry>
 	<entry key="robotIp">127.0.0.1</entry>
-	<entry key="refBoxIp">172.26.0.1</entry>
+	<entry key="refBoxIp">127.0.0.1</entry>
 
 	<entry key="ipMaster">127.0.0.1</entry>
 	<entry key="ipRobi1">172.26.107.151</entry>
