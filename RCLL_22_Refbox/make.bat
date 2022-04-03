@@ -1,0 +1,1 @@
+protoc -I=src/org/robocup_logistics/llsf_proto/ --java_out=src/ src/org/robocup_logistics/llsf_proto/*

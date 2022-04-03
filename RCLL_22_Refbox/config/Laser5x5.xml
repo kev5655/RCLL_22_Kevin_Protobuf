@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>laser Data set file</comment>
+
+<!-- Eckpunkte Erkennung Koordinaten X/Y in mm-->
+<entry key="REF_POINT_Corner1_X">7000</entry>
+<entry key="REF_POINT_Corner1_Y">0</entry>
+
+<entry key="REF_POINT_Corner2_X">7000</entry>
+<entry key="REF_POINT_Corner2_Y">5000</entry>
+
+<entry key="REF_POINT_Corner3_X">12000</entry>
+<entry key="REF_POINT_Corner3_Y">5000</entry>
+
+<entry key="REF_POINT_Corner4_X">12000</entry>
+<entry key="REF_POINT_Corner4_Y">0</entry>
+
+<!-- Eckpunkte Erkennung Tolleranz grösse in mm -->
+<entry key="CORECTIONBOX_SIZE">900</entry>
+
+<!-- Max winkel Korrektur für x/y +- Grad (0 = winkelkorr = Off) -->
+<!-- Wenn Winkel Grösser als MaxAngel. wird x/y nicht korrigiert! -->
+<entry key="MAX_ANGEL_CORECTION">3</entry>
+
+<!-- Laser Parameter -->
+<entry key="PORT_LASER">2112</entry>
+<entry key="IP_LASER_FRONT">192.168.137.3</entry>
+<entry key="IP_LASER_BACK">192.168.137.2</entry>
+
+<!-- Laser Winkel -->
+<entry key="LASER_ANGEL_FRONT">90</entry>
+<entry key="LASER_ANGEL_BACK">270</entry>
+
+<!-- Orientierung -->
+<entry key="LASER_FRONT_UPSIDEDOWN">true</entry>
+<entry key="LASER_BACK_UPSIDEDOWN">false</entry>
+
+<!-- Laser Versatz -->
+<entry key="LASER_SHIFT_BACK">-162</entry>
+<entry key="LASER_SHIFT_FRONT">184</entry>
+
+<!-- Filter -->
+<!-- Line Detection -->
+<entry key="MIN_LINE_LENGH">200</entry>
+<entry key="MIN_NR_REFLECTIONS">8</entry>
+
+<!-- Rflexions Filter -->
+<entry key="THRESHOLD_FILTER">10</entry>
+<entry key="BUFFERING_SIZE_FILTER">8</entry>
+
+<!-- Eckpunkt Erkennung  -->
+<entry key="CORDINAT_TOLLERANCE">50</entry>
+<entry key="SCALAR_TOLLERANCE">5</entry>
+
+<!-- Compas -->
+<entry key="COMPAS_INIT_ANGEL">90</entry>
+<entry key="COMPAS_ID">69DUX3</entry>
+
+</properties>

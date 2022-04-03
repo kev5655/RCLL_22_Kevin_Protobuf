@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<!-- GAME PLAY INFOS -->
+	<entry key="teamColor">MAGENTA</entry>
+	<entry key="encKey">randomkey</entry>
+	<entry key="teamName">Solidus</entry>
+
+	<entry key="roboNr">1</entry>
+        <entry key="manualStartPosOn">True</entry><!-- True: Type StartPos in Next Entry, False: StartPos will be selected from RoboNr and TeamColor -->
+        <entry key="manualStartPos">9.5;0.5;0</entry><!-- StartPos when Programm is Started in x;y;omega - default: 2.5;0.5;0 -->
+	
+        <!-- NETWORK -->
+	<entry key="mqttBrokerIp">127.0.0.1</entry>
+	<entry key="robotIp">127.0.0.1</entry>
+	<entry key="refBoxIp">172.26.1.1</entry>
+
+	<entry key="ipMaster">172.26.107.150</entry>
+	<entry key="ipRobi1">172.26.107.151</entry>
+	<entry key="ipRobi2">172.26.107.152</entry>
+	<entry key="ipRobi3">172.26.107.153</entry>
+        
+        <!--  Set Mockup MPS-Stations -->
+        <entry key="mockupStations">M-BS;M-DS;M-SS;M-RS1;M-RS2;M-CS1;;M-CS2</entry>
+        
+        <!-- Set FieldSize Achtung Laser Korrektur Eckpunkte Sind im Laser XML Parametriet -->
+        <entry key="fieldWidth">5</entry>   
+        <entry key="fieldHeight">5</entry> 
+        <entry key="teamsOnField">1</entry>  
+
+	<!-- DriveMap -->
+	<!-- Draw Wall in DriveMap when field != 7x14m (in Meters) -->
+	<entry key="startX">7</entry> <!--Default = 7 (for 5x5m) -->
+	<entry key="endX">12</entry> <!--Default = 12 (for 5x5m) -->
+	<entry key="startY">0</entry><!--Default = 0 (for 5x5m) -->
+	<entry key="endY">5</entry> <!--Default = 5 (for 5x5m) -->
+	<!-- Block Walls from StartBox -->
+	<entry key="drawStartBox">false</entry> <!-- true = Walls form Insertzone will be set as BLOCKED in DriveMap / false = no walls are BLOCKED from insert-Zone -->
+	<!-- GripperChallange -->
+	<entry key="gripperChallangeActive">false</entry> <!-- true = Field M53, M12 and M25 and "walls" to keep robi in area - will be BLOCKED in DriveMap / false = no BLOCKED Zones (exept GraspingChallenge is started) -->
+	<entry key="sideSpace">15</entry> <!--v When station on Filed, whole field will be blocked. enter value in CM how much space will be free [default: 15] / to deactivate enter 50cm) -->
+     
+</properties>
