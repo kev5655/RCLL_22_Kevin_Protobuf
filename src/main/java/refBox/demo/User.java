@@ -14,6 +14,7 @@ import org.robocup_logistics.llsf_msgs.MachineReportProtos;
 import org.robocup_logistics.llsf_msgs.MachineReportProtos.MachineReport;
 import org.robocup_logistics.llsf_msgs.MachineReportProtos.MachineReportInfo;
 import org.robocup_logistics.llsf_msgs.OrderInfoProtos.OrderInfo;
+import org.robocup_logistics.llsf_msgs.RobotInfoProtos;
 import org.robocup_logistics.llsf_msgs.RobotInfoProtos.RobotInfo;
 import org.robocup_logistics.llsf_msgs.TeamProtos.Team;
 import org.robocup_logistics.llsf_msgs.TimeProtos.Time;
